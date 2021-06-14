@@ -1,0 +1,20 @@
+{
+  "name": "final-task-api-rest-fake",
+  "version": "1.0.0",
+  "description": "API Fake para aplicación de la tarea final del modulo 3  PilarTecno.",
+  "main": "index.js",
+  "scripts": {
+    "json:server" : "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fake",
+    "api",
+    "jsonServer"
+  ],
+  "author": "Esteban Luna Mercado",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
