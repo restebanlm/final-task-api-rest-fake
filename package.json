@@ -4,8 +4,7 @@
   "description": "API Fake para aplicación de la tarea final del modulo 3  PilarTecno.",
   "main": "index.js",
   "scripts": {
-    "json:server" : "json-server --watch db.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "json:server" : "json-server --watch db.json --port 3001"
   },
   "keywords": [
     "fake",
